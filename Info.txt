@@ -1,0 +1,76 @@
+StockedBook:
+	Rock Around the Clock:
+		Author: Elvis Presley
+		Publisher: Rock n Roll
+		ISBN: 79234-22-324-1
+		Quantity: 4
+	end
+
+StockedBook:
+	Six of Crows:
+		Author: Leigh Bardugo
+		Publisher: Downtown Publishing
+		ISBN: 768-32-4121-44
+		Quantity: 2
+	end
+
+StockedBook:
+	Spaghetti Code 2: Electric Boogaloo:
+		Author: Big Zuck
+		Publisher: Facebook
+		ISBN: 13-656-3-31233
+		Quantity: 17
+	end
+
+StockedBook:
+	The Call of the Wild:
+		Author: Jack London
+		Publisher: London Publishing
+		ISBN: 123-332-479-2133
+		Quantity: 6
+	end
+
+StockedBook:
+	The Making of: CISP 1020 Project:
+		Author: The Team
+		Publisher: Chatt State
+		ISBN: 00000001
+		Quantity: 4
+	end
+
+Student:
+	Name: John Johnson
+	A#: A00339493
+	end
+
+Student:
+	Name: Prahj Jecht
+	A#: A00321321
+	IssuedBook:
+	Spaghetti Code 2: Electric Boogaloo:
+		Author: Big Zuck
+		Publisher: Facebook
+		ISBN: 13-656-3-31233
+	IssuedDate: 04/15/2022
+	ReturnDate: 04/29/2022
+	end
+
+	IssuedBook:
+	The Making of: CISP 1020 Project:
+		Author: The Team
+		Publisher: Chatt State
+		ISBN: 00000001
+	IssuedDate: 04/15/2022
+	ReturnDate: 04/29/2022
+	end
+
+	end
+
+Billing:
+	Greater Colleges of Technology Library:
+		Address: 123 Address Street
+		Number: 123-456-7890
+		IssuePeriod: 14
+		OverdueFee: 1.0
+	end
+
